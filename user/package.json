@@ -1,0 +1,55 @@
+{
+  "name": "user",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "preandroid": "npx jetify",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@actbase/react-native-kakao-login": "2.0.18",
+    "@react-native-community/async-storage": "1.12.1",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-native-community/viewpager": "5.0.11",
+    "@react-native-seoul/kakao-login": "3.0.6",
+    "@react-navigation/bottom-tabs": "5.11.9",
+    "@react-navigation/material-top-tabs": "5.3.15",
+    "@react-navigation/native": "5.9.4",
+    "@react-navigation/stack": "5.14.4",
+    "install": "0.13.0",
+    "npm": "7.12.0",
+    "react": "17.0.1",
+    "react-native": "0.64.0",
+    "react-native-daum-postcode": "1.0.9",
+    "react-native-geolocation-service": "*",
+    "react-native-gesture-handler": "1.10.3",
+    "react-native-nmap": "0.0.59",
+    "react-native-reanimated": "2.1.0",
+    "react-native-safe-area-context": "3.2.0",
+    "react-native-screens": "3.1.0",
+    "react-native-simple-modal": "9.0.1",
+    "react-native-tab-view": "3.0.1",
+    "react-native-toast-message": "1.4.9",
+    "react-native-vector-icons": "8.1.0",
+    "react-native-webview": "11.3.2",
+    "react-navigation": "4.4.4"
+  },
+  "devDependencies": {
+    "@babel/core": "7.13.14",
+    "@babel/runtime": "7.13.10",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.14.0",
+    "jest": "26.6.3",
+    "jetifier": "1.6.6",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "17.0.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
